@@ -1,0 +1,89 @@
+@media screen and (min-width: 320px) {
+    html, body {
+        max-height: 100%;
+        
+        /* display: none; */
+    }
+
+    #home {
+        display: block;
+        min-height: 350px;
+    }
+
+    #container-banner {
+        display: none;
+    }
+
+    #menu h1 {
+        font-size: 20px;
+        position: relative;
+    }
+
+    .chakras {
+        display: flex;
+        opacity: 0.5;
+        width: 350px;
+        height: 400px;
+        top: 1000px;
+        margin-left: 50px;
+
+    }
+
+    #menu .menu_list-container {
+        flex-direction: column;
+        left: 5px;
+        font-size: 15px;
+    }
+
+    .bolinha {
+        bottom: 500px;
+        scale: 1;
+    }
+
+    .container-descricao-bolinha {
+        font-size: 55px;
+        bottom: 600px;
+    }
+
+    .video1-contaier{
+        margin-top: 150px;
+        width: 300px;
+        margin-left: -620px;
+        width: calc(20% - 25px);
+    }
+    .video2-contaier{
+        margin-top: 150px;
+        width: 300px;
+        margin-right: 1200px;
+        width: calc(20% - 25px);
+    }
+    .video3-contaier{
+        position: relative;
+        width: calc(100% - 200px); 
+        bottom: 200px;
+        left: 90px;
+      }
+      .pronto{
+        margin-top: 550px;
+      }
+      .container-investimento{
+        left: 15px;
+        width: 200px;
+        margin-top: -450px;
+      }
+      .titulo{
+        font-size: 30px;
+      }
+      .data{
+        font-size: 25px;
+      }
+      h2{
+        font-size: 20px;
+      }
+      #duracao-container{
+        position: absolute;
+        left: 250px;
+        margin-top: -600px;
+        width: 200px;
+      }
+}
